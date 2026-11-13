@@ -1,9 +1,18 @@
+# Virtual environments
 .venv/
+.venv_test/
+venv/
 
+# Python
 __pycache__/
 *.py[cod]
 
+# Jupyter
 .ipynb_checkpoints/
 
+# Dataset
+data/*.csv
+
+# System files
 .DS_Store
 Thumbs.db
